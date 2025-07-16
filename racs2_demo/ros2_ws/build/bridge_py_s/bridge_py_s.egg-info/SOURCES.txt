@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+bridge_py_s/RACS2Bridge_std_msgs_pb2.py
+bridge_py_s/__init__.py
+bridge_py_s/bridge_py_s_node.py
+bridge_py_s.egg-info/PKG-INFO
+bridge_py_s.egg-info/SOURCES.txt
+bridge_py_s.egg-info/dependency_links.txt
+bridge_py_s.egg-info/entry_points.txt
+bridge_py_s.egg-info/requires.txt
+bridge_py_s.egg-info/top_level.txt
+bridge_py_s.egg-info/zip-safe
+resource/bridge_py_s

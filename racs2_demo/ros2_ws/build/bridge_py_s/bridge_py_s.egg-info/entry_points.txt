@@ -1,0 +1,3 @@
+[console_scripts]
+bridge_py_s_node = bridge_py_s.bridge_py_s_node:main
+

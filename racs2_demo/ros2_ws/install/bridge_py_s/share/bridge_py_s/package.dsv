@@ -1,0 +1,9 @@
+source;share/bridge_py_s/hook/pythonpath.ps1
+source;share/bridge_py_s/hook/pythonpath.dsv
+source;share/bridge_py_s/hook/pythonpath.sh
+source;share/bridge_py_s/hook/ament_prefix_path.ps1
+source;share/bridge_py_s/hook/ament_prefix_path.dsv
+source;share/bridge_py_s/hook/ament_prefix_path.sh
+source;../../build/bridge_py_s/share/bridge_py_s/hook/pythonpath_develop.ps1
+source;../../build/bridge_py_s/share/bridge_py_s/hook/pythonpath_develop.dsv
+source;../../build/bridge_py_s/share/bridge_py_s/hook/pythonpath_develop.sh

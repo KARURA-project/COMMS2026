@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating bridge_py_s.egg-info
+writing bridge_py_s.egg-info/PKG-INFO
+writing dependency_links to bridge_py_s.egg-info/dependency_links.txt
+writing entry points to bridge_py_s.egg-info/entry_points.txt
+writing requirements to bridge_py_s.egg-info/requires.txt
+writing top-level names to bridge_py_s.egg-info/top_level.txt
+writing manifest file 'bridge_py_s.egg-info/SOURCES.txt'
+reading manifest file 'bridge_py_s.egg-info/SOURCES.txt'
+writing manifest file 'bridge_py_s.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages/bridge-py-s.egg-link (link to .)
+Installing bridge_py_s_node script to /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/bridge_py_s
+
+Installed /home/karura/racs2_ws/ros2_ws/build/bridge_py_s
+running symlink_data
+creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index
+creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index
+creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index/packages
+symbolically linking /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/resource/bridge_py_s -> /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index/packages
+symbolically linking /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/package.xml -> /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/bridge_py_s

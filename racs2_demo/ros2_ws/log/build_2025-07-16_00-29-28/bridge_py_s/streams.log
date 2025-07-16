@@ -1,0 +1,26 @@
+[0.506s] Invoking command in '/home/karura/racs2_ws/ros2_ws/build/bridge_py_s': PYTHONPATH=/home/karura/racs2_ws/ros2_ws/build/bridge_py_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/build --no-deps symlink_data
+[0.673s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.673s]   warnings.warn(
+[0.696s] running develop
+[0.782s] running egg_info
+[0.782s] creating bridge_py_s.egg-info
+[0.782s] writing bridge_py_s.egg-info/PKG-INFO
+[0.782s] writing dependency_links to bridge_py_s.egg-info/dependency_links.txt
+[0.782s] writing entry points to bridge_py_s.egg-info/entry_points.txt
+[0.782s] writing requirements to bridge_py_s.egg-info/requires.txt
+[0.782s] writing top-level names to bridge_py_s.egg-info/top_level.txt
+[0.782s] writing manifest file 'bridge_py_s.egg-info/SOURCES.txt'
+[0.784s] reading manifest file 'bridge_py_s.egg-info/SOURCES.txt'
+[0.784s] writing manifest file 'bridge_py_s.egg-info/SOURCES.txt'
+[0.784s] running build_ext
+[0.785s] Creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages/bridge-py-s.egg-link (link to .)
+[0.785s] Installing bridge_py_s_node script to /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/bridge_py_s
+[0.785s] 
+[0.786s] Installed /home/karura/racs2_ws/ros2_ws/build/bridge_py_s
+[0.786s] running symlink_data
+[0.786s] creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index
+[0.786s] creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index
+[0.786s] creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index/packages
+[0.786s] symbolically linking /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/resource/bridge_py_s -> /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index/packages
+[0.787s] symbolically linking /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/package.xml -> /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/bridge_py_s
+[0.813s] Invoked command in '/home/karura/racs2_ws/ros2_ws/build/bridge_py_s' returned '0': PYTHONPATH=/home/karura/racs2_ws/ros2_ws/build/bridge_py_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/build --no-deps symlink_data

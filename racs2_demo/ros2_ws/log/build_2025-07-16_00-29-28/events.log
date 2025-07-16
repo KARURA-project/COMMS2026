@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (bridge_py_s) JobQueued: {'identifier': 'bridge_py_s', 'dependencies': OrderedDict()}
+[0.000245] (bridge_py_s) JobStarted: {'identifier': 'bridge_py_s'}
+[0.132245] (-) TimerEvent: {}
+[0.284034] (-) TimerEvent: {}
+[0.388013] (-) TimerEvent: {}
+[0.500065] (bridge_py_s) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/karura/racs2_ws/ros2_ws/build/bridge_py_s/build', '--no-deps', 'symlink_data'], 'cwd': '/home/karura/racs2_ws/ros2_ws/build/bridge_py_s', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'karura', 'SSH_CLIENT': '10.0.2.2 54791 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/karura', 'OLDPWD': '/home/karura/racs2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/karura/Karura/COMMS2026/COMMS2026/racs2_demo/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'karura', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/karura/racs2_ws/ros2_ws/build/bridge_py_s', 'SSH_CONNECTION': '10.0.2.2 54791 10.0.2.15 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/karura/racs2_ws/ros2_ws/build/bridge_py_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.506705] (-) TimerEvent: {}
+[0.663577] (-) TimerEvent: {}
+[0.672504] (bridge_py_s) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.672929] (bridge_py_s) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.695993] (bridge_py_s) StdoutLine: {'line': b'running develop\n'}
+[0.776208] (-) TimerEvent: {}
+[0.781610] (bridge_py_s) StdoutLine: {'line': b'running egg_info\n'}
+[0.781947] (bridge_py_s) StdoutLine: {'line': b'creating bridge_py_s.egg-info\n'}
+[0.782284] (bridge_py_s) StdoutLine: {'line': b'writing bridge_py_s.egg-info/PKG-INFO\n'}
+[0.782375] (bridge_py_s) StdoutLine: {'line': b'writing dependency_links to bridge_py_s.egg-info/dependency_links.txt\n'}
+[0.782413] (bridge_py_s) StdoutLine: {'line': b'writing entry points to bridge_py_s.egg-info/entry_points.txt\n'}
+[0.782445] (bridge_py_s) StdoutLine: {'line': b'writing requirements to bridge_py_s.egg-info/requires.txt\n'}
+[0.782476] (bridge_py_s) StdoutLine: {'line': b'writing top-level names to bridge_py_s.egg-info/top_level.txt\n'}
+[0.782506] (bridge_py_s) StdoutLine: {'line': b"writing manifest file 'bridge_py_s.egg-info/SOURCES.txt'\n"}
+[0.783573] (bridge_py_s) StdoutLine: {'line': b"reading manifest file 'bridge_py_s.egg-info/SOURCES.txt'\n"}
+[0.783863] (bridge_py_s) StdoutLine: {'line': b"writing manifest file 'bridge_py_s.egg-info/SOURCES.txt'\n"}
+[0.784448] (bridge_py_s) StdoutLine: {'line': b'running build_ext\n'}
+[0.784724] (bridge_py_s) StdoutLine: {'line': b'Creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages/bridge-py-s.egg-link (link to .)\n'}
+[0.785189] (bridge_py_s) StdoutLine: {'line': b'Installing bridge_py_s_node script to /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/lib/bridge_py_s\n'}
+[0.785494] (bridge_py_s) StdoutLine: {'line': b'\n'}
+[0.785732] (bridge_py_s) StdoutLine: {'line': b'Installed /home/karura/racs2_ws/ros2_ws/build/bridge_py_s\n'}
+[0.786003] (bridge_py_s) StdoutLine: {'line': b'running symlink_data\n'}
+[0.786259] (bridge_py_s) StdoutLine: {'line': b'creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index\n'}
+[0.786383] (bridge_py_s) StdoutLine: {'line': b'creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index\n'}
+[0.786515] (bridge_py_s) StdoutLine: {'line': b'creating /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index/packages\n'}
+[0.786653] (bridge_py_s) StdoutLine: {'line': b'symbolically linking /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/resource/bridge_py_s -> /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/ament_index/resource_index/packages\n'}
+[0.786783] (bridge_py_s) StdoutLine: {'line': b'symbolically linking /home/karura/racs2_ws/ros2_ws/build/bridge_py_s/package.xml -> /home/karura/racs2_ws/ros2_ws/install/bridge_py_s/share/bridge_py_s\n'}
+[0.813571] (bridge_py_s) CommandEnded: {'returncode': 0}
+[0.838470] (bridge_py_s) JobEnded: {'identifier': 'bridge_py_s', 'rc': 0}
+[0.839603] (-) EventReactorShutdown: {}
