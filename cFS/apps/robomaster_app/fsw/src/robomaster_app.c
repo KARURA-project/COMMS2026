@@ -12,16 +12,21 @@ void ROBOMASTER_ProcessCommand(const CFE_SB_Buffer_t *SBBufPtr) {
     CFE_MSG_GetFcnCode(&SBBufPtr->Msg, &CmdCode);
 
     switch (CmdCode) {
-        case 0: /* NOOP */
+        case ROBOMASTER_APP_NOOP_CC:
             ROBOMASTER_AppData.MsgCount++;
             CFE_EVS_SendEvent(ROBOMASTER_APP_NOOP_INF_EID, CFE_EVS_EventType_INFORMATION,
                               "ROBOMASTER NOOP received");
             break;
-        case 1: /* Reset counters */
+        case ROBOMASTER_APP_RESET_COUNTERS_CC:
             ROBOMASTER_AppData.MsgCount = 0;
             ROBOMASTER_AppData.ErrorCount = 0;
             CFE_EVS_SendEvent(ROBOMASTER_APP_INIT_INF_EID, CFE_EVS_EventType_INFORMATION,
                               "ROBOMASTER Reset counters");
+            break;
+        case ROBOMASTER_APP_EXIT_CC:
+            ROBOMASTER_AppData.RunStatus = CFE_ES_RunStatus_APP_EXIT;
+            CFE_EVS_SendEvent(ROBOMASTER_APP_EXIT_INF_EID, CFE_EVS_EventType_INFORMATION,
+                              "ROBOMASTER Exit command received");
             break;
         default:
             ROBOMASTER_AppData.ErrorCount++;
