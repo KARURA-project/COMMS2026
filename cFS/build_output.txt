@@ -1,0 +1,341 @@
+make --no-print-directory -C "build" mission-all
+[ 11%] Building C object tools/elf2cfetbl/CMakeFiles/elf2cfetbl.dir/elf2cfetbl.c.o
+[ 22%] Linking C executable elf2cfetbl
+[ 22%] Built target elf2cfetbl
+[ 22%] Built target cfe-build-env
+[ 22%] Built target cfe-module-version
+[ 22%] Built target mission-version
+[ 33%] Building C object cfeconfig_platformdata_tool/CMakeFiles/cfeconfig_platformdata_native_default_cpu1.dir/cfeconfig_platformdata_table.c.o
+[ 33%] Built target cfeconfig_platformdata_native_default_cpu1
+[ 44%] Building C object cfeconfig_platformdata_tool/CMakeFiles/cfeconfig_platformdata_tool.dir/cfeconfig_platformdata_tool.c.o
+[ 55%] Building C object cfeconfig_platformdata_tool/CMakeFiles/cfeconfig_platformdata_tool.dir/__/src/cfe_configid_nametable.c.o
+[ 66%] Building C object cfeconfig_platformdata_tool/CMakeFiles/cfeconfig_platformdata_tool.dir/__/src/cfe_platform_list.c.o
+[ 77%] Linking C executable cfeconfig_platformdata_tool
+[ 77%] Built target cfeconfig_platformdata_tool
+[ 88%] Generating ../src/cfeconfig_platformdata_native_default_cpu1.c
+[100%] Generating ../src/cfeconfig_platformdata_native_default_cpu1.list
+[100%] Built target cfgtool-execute-native_default_cpu1
+[100%] Built target mission-prebuild
+[  0%] Building C object apps/sample_app/CMakeFiles/tblobj_cpu1_sample_app.tblecd098fff7e5972ac66784c0d8463287ebaa1fbc.dir/fsw/tables/sample_app_tbl.c.o
+[ 33%] Linking C static library libtblobj_cpu1_sample_app.tblecd098fff7e5972ac66784c0d8463287ebaa1fbc.a
+[ 33%] Built target tblobj_cpu1_sample_app.tblecd098fff7e5972ac66784c0d8463287ebaa1fbc
+[ 33%] Generating /mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/build/tables/cpu1_sample_app.tblecd098fff7e5972ac66784c0d8463287ebaa1fbc.sample_app_tbl.d
+[ 33%] Built target generate_table_cpu1_sample_app_sample_app_tbl
+[ 33%] Building C object apps/to_lab/CMakeFiles/tblobj_cpu1_to_lab.tblb4baca0474dadbcf47df4de8a6a68fd62a5d22ff.dir/fsw/tables/to_lab_sub.c.o
+[ 66%] Linking C static library libtblobj_cpu1_to_lab.tblb4baca0474dadbcf47df4de8a6a68fd62a5d22ff.a
+[ 66%] Built target tblobj_cpu1_to_lab.tblb4baca0474dadbcf47df4de8a6a68fd62a5d22ff
+[ 66%] Generating /mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/build/tables/cpu1_to_lab.tblb4baca0474dadbcf47df4de8a6a68fd62a5d22ff.to_lab_sub.d
+[ 66%] Built target generate_table_cpu1_to_lab_to_lab_sub
+[ 66%] Building C object apps/sch_lab/CMakeFiles/tblobj_cpu1_sch_lab.tbl88e5880e079d7b2820dbc12e249b1ed4a93ddf0b.dir/fsw/tables/sch_lab_table.c.o
+[ 66%] Linking C static library libtblobj_cpu1_sch_lab.tbl88e5880e079d7b2820dbc12e249b1ed4a93ddf0b.a
+[ 66%] Built target tblobj_cpu1_sch_lab.tbl88e5880e079d7b2820dbc12e249b1ed4a93ddf0b
+[100%] Generating /mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/build/tables/cpu1_sch_lab.tbl88e5880e079d7b2820dbc12e249b1ed4a93ddf0b.sch_lab_table.d
+[100%] Built target generate_table_cpu1_sch_lab_sch_lab_table
+[100%] Built target cfetables
+[100%] Built target native_default_cpu1-cfetables
+[100%] Built target mission-cfetables
+mkdir: created directory 'elf'
+mkdir: created directory 'elf/cpu1/'
+mkdir: created directory 'staging'
+mkdir: created directory 'staging/cpu1'
+mkdir: created directory 'staging/cpu1/cf/'
+Table build completed
+[100%] Built target tabletool-execute
+[  0%] Building C object osal/generic-linux_impl/CMakeFiles/osal_generic-linux_impl.dir/src/bsp_start.c.o
+[  0%] Building C object osal/generic-linux_impl/CMakeFiles/osal_generic-linux_impl.dir/src/bsp_console.c.o
+[  0%] Built target osal_generic-linux_impl
+[  0%] Building C object osal/CMakeFiles/osal_bsp.dir/src/bsp/shared/src/osapi-bsp.c.o
+[  0%] Building C object osal/CMakeFiles/osal_bsp.dir/src/bsp/shared/src/bsp_default_app_run.c.o
+[  1%] Building C object osal/CMakeFiles/osal_bsp.dir/src/bsp/shared/src/bsp_default_app_startup.c.o
+[  1%] Building C object osal/CMakeFiles/osal_bsp.dir/src/bsp/shared/src/bsp_default_symtab.c.o
+[  1%] Building C object osal/CMakeFiles/osal_bsp.dir/src/bsp/shared/src/bsp_default_resourcecfg.c.o
+[  2%] Linking C static library libosal_bsp.a
+[  2%] Built target osal_bsp
+[  2%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-binsem.c.o
+[  4%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-common.c.o
+[  4%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-console.c.o
+[  4%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-condvar.c.o
+[  5%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-countsem.c.o
+[  5%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-dirs.c.o
+[  5%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-errors.c.o
+[  5%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-files.c.o
+[  7%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-filesys.c.o
+[  7%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-heap.c.o
+[  7%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-idmap.c.o
+[  8%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-mutex.c.o
+[  8%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-queues.c.o
+[  8%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-tasks.c.o
+[  8%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-timebase.c.o
+[ 10%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-gettime.c.o
+[ 10%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-console-bsp.c.o
+[ 10%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-bsd-select.c.o
+[ 11%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-io.c.o
+[ 11%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-files.c.o
+[ 11%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-dirs.c.o
+[ 13%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-no-shell.c.o
+[ 13%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/src/os-impl-loader.c.o
+[ 13%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-dl-loader.c.o
+[ 13%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-dl-symtab.c.o
+[ 14%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-bsd-sockets.c.o
+[ 14%] Building C object osal/posix_impl/CMakeFiles/osal_posix_impl.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/osal/src/os/portable/os-impl-posix-network.c.o
+[ 14%] Built target osal_posix_impl
+[ 14%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-binsem.c.o
+[ 14%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-clock.c.o
+[ 15%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-common.c.o
+[ 15%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-condvar.c.o
+[ 15%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-countsem.c.o
+[ 15%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-dir.c.o
+[ 17%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-errors.c.o
+[ 17%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-file.c.o
+[ 17%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-filesys.c.o
+[ 18%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-heap.c.o
+[ 18%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-idmap.c.o
+[ 18%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-module.c.o
+[ 18%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-mutex.c.o
+[ 20%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-network.c.o
+[ 20%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-printf.c.o
+[ 20%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-queue.c.o
+[ 21%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-select.c.o
+[ 21%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-shell.c.o
+[ 21%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-sockets.c.o
+[ 21%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-task.c.o
+[ 23%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-timebase.c.o
+[ 23%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-time.c.o
+[ 23%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-version.c.o
+[ 24%] Building C object osal/CMakeFiles/osal.dir/src/os/shared/src/osapi-debug.c.o
+[ 24%] Linking C static library libosal.a
+[ 24%] Built target osal
+[ 24%] Building C object osal/ut_assert/CMakeFiles/ut_assert.dir/src/utassert.c.o
+[ 26%] Building C object osal/ut_assert/CMakeFiles/ut_assert.dir/src/utlist.c.o
+[ 26%] Building C object osal/ut_assert/CMakeFiles/ut_assert.dir/src/utstubs.c.o
+[ 26%] Building C object osal/ut_assert/CMakeFiles/ut_assert.dir/src/uttest.c.o
+[ 27%] Building C object osal/ut_assert/CMakeFiles/ut_assert.dir/src/uttools.c.o
+[ 27%] Building C object osal/ut_assert/CMakeFiles/ut_assert.dir/src/utbsp.c.o
+[ 27%] Linking C static library libut_assert.a
+[ 27%] Built target ut_assert
+[ 27%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/utstub-helpers.c.o
+[ 27%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-binsem-stubs.c.o
+[ 27%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-binsem-handlers.c.o
+[ 28%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-clock-stubs.c.o
+[ 28%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-clock-handlers.c.o
+[ 28%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-common-stubs.c.o
+[ 30%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-common-handlers.c.o
+[ 30%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-condvar-stubs.c.o
+[ 30%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-countsem-stubs.c.o
+[ 30%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-countsem-handlers.c.o
+[ 31%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-dir-stubs.c.o
+[ 31%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-dir-handlers.c.o
+[ 31%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-error-stubs.c.o
+[ 33%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-error-handlers.c.o
+[ 33%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-file-stubs.c.o
+[ 33%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-file-handlers.c.o
+[ 33%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-filesys-stubs.c.o
+[ 34%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-filesys-handlers.c.o
+[ 34%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-heap-stubs.c.o
+[ 34%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-heap-handlers.c.o
+[ 36%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-idmap-stubs.c.o
+[ 36%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-idmap-handlers.c.o
+[ 36%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-module-stubs.c.o
+[ 36%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-module-handlers.c.o
+[ 37%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-mutex-stubs.c.o
+[ 37%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-mutex-handlers.c.o
+[ 37%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-network-stubs.c.o
+[ 39%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-network-handlers.c.o
+[ 39%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-printf-stubs.c.o
+[ 39%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-printf-handlers.c.o
+[ 39%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-queue-stubs.c.o
+[ 40%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-queue-handlers.c.o
+[ 40%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-select-stubs.c.o
+[ 40%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-shell-stubs.c.o
+[ 42%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-sockets-stubs.c.o
+[ 42%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-sockets-handlers.c.o
+[ 42%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-task-stubs.c.o
+[ 42%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-task-handlers.c.o
+[ 43%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-timer-stubs.c.o
+[ 43%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-timer-handlers.c.o
+[ 43%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-timebase-stubs.c.o
+[ 44%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-timebase-handlers.c.o
+[ 44%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-version-stubs.c.o
+[ 44%] Building C object osal/ut-stubs/CMakeFiles/ut_osapi_stubs.dir/osapi-version-handlers.c.o
+[ 46%] Linking C static library libut_osapi_stubs.a
+[ 46%] Built target ut_osapi_stubs
+[ 46%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_api.c.o
+[ 47%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_apps.c.o
+[ 47%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_backgroundtask.c.o
+[ 47%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_cds.c.o
+[ 49%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_cds_mempool.c.o
+[ 49%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_crc.c.o
+[ 49%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_dispatch.c.o
+[ 49%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_erlog.c.o
+[ 50%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_generic_pool.c.o
+[ 50%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_mempool.c.o
+[ 50%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_objtab.c.o
+[ 52%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_perf.c.o
+[ 52%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_resource.c.o
+[ 52%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_start.c.o
+[ 52%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_syslog.c.o
+[ 53%] Building C object es/CMakeFiles/es.dir/fsw/src/cfe_es_task.c.o
+[ 53%] Linking C static library libes.a
+[ 53%] Built target es
+[ 53%] Building C object evs/CMakeFiles/evs.dir/fsw/src/cfe_evs.c.o
+[ 53%] Building C object evs/CMakeFiles/evs.dir/fsw/src/cfe_evs_log.c.o
+[ 55%] Building C object evs/CMakeFiles/evs.dir/fsw/src/cfe_evs_task.c.o
+[ 55%] Building C object evs/CMakeFiles/evs.dir/fsw/src/cfe_evs_utils.c.o
+[ 55%] Building C object evs/CMakeFiles/evs.dir/fsw/src/cfe_evs_dispatch.c.o
+[ 55%] Linking C static library libevs.a
+[ 55%] Built target evs
+[ 55%] Building C object fs/CMakeFiles/fs.dir/fsw/src/cfe_fs_api.c.o
+[ 56%] Building C object fs/CMakeFiles/fs.dir/fsw/src/cfe_fs_priv.c.o
+[ 56%] Linking C static library libfs.a
+[ 56%] Built target fs
+[ 56%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_api.c.o
+[ 56%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_buf.c.o
+[ 57%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_init.c.o
+[ 57%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_msg_id_util.c.o
+[ 57%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_priv.c.o
+[ 57%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_dispatch.c.o
+[ 59%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_task.c.o
+[ 59%] Building C object sb/CMakeFiles/sb.dir/fsw/src/cfe_sb_util.c.o
+[ 59%] Linking C static library libsb.a
+[ 59%] Built target sb
+[ 59%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_api.c.o
+[ 60%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_internal.c.o
+[ 60%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_resource.c.o
+[ 60%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_transaction.c.o
+[ 60%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_task.c.o
+[ 62%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_task_cmds.c.o
+[ 62%] Building C object tbl/CMakeFiles/tbl.dir/fsw/src/cfe_tbl_dispatch.c.o
+[ 62%] Linking C static library libtbl.a
+[ 62%] Built target tbl
+[ 62%] Building C object time/CMakeFiles/time.dir/fsw/src/cfe_time_api.c.o
+[ 62%] Building C object time/CMakeFiles/time.dir/fsw/src/cfe_time_task.c.o
+[ 63%] Building C object time/CMakeFiles/time.dir/fsw/src/cfe_time_tone.c.o
+[ 63%] Building C object time/CMakeFiles/time.dir/fsw/src/cfe_time_utils.c.o
+[ 63%] Building C object time/CMakeFiles/time.dir/fsw/src/cfe_time_dispatch.c.o
+[ 63%] Linking C static library libtime.a
+[ 63%] Built target time
+[ 65%] Building C object psp/linux_sysmon-pc-linux-impl/CMakeFiles/linux_sysmon.dir/linux_sysmon.c.o
+[ 65%] Linking C static library liblinux_sysmon.a
+[ 65%] Built target linux_sysmon
+[ 65%] Building C object psp/pc-linux-impl/CMakeFiles/psp-pc-linux-impl.dir/src/cfe_psp_exception.c.o
+[ 66%] Building C object psp/pc-linux-impl/CMakeFiles/psp-pc-linux-impl.dir/src/cfe_psp_memory.c.o
+[ 66%] Building C object psp/pc-linux-impl/CMakeFiles/psp-pc-linux-impl.dir/src/cfe_psp_ssr.c.o
+[ 66%] Building C object psp/pc-linux-impl/CMakeFiles/psp-pc-linux-impl.dir/src/cfe_psp_start.c.o
+[ 68%] Building C object psp/pc-linux-impl/CMakeFiles/psp-pc-linux-impl.dir/src/cfe_psp_support.c.o
+[ 68%] Building C object psp/pc-linux-impl/CMakeFiles/psp-pc-linux-impl.dir/src/cfe_psp_watchdog.c.o
+[ 68%] Built target psp-pc-linux-impl
+[ 68%] Building C object psp/pc-linux-shared/CMakeFiles/psp-pc-linux-shared.dir/src/cfe_psp_error.c.o
+[ 68%] Building C object psp/pc-linux-shared/CMakeFiles/psp-pc-linux-shared.dir/src/cfe_psp_exceptionstorage.c.o
+[ 69%] Building C object psp/pc-linux-shared/CMakeFiles/psp-pc-linux-shared.dir/src/cfe_psp_memrange.c.o
+[ 69%] Building C object psp/pc-linux-shared/CMakeFiles/psp-pc-linux-shared.dir/src/cfe_psp_memutils.c.o
+[ 69%] Building C object psp/pc-linux-shared/CMakeFiles/psp-pc-linux-shared.dir/src/cfe_psp_module.c.o
+[ 71%] Building C object psp/pc-linux-shared/CMakeFiles/psp-pc-linux-shared.dir/src/cfe_psp_version.c.o
+[ 71%] Built target psp-pc-linux-shared
+[ 72%] Building C object psp/soft_timebase-pc-linux-impl/CMakeFiles/soft_timebase.dir/cfe_psp_soft_timebase.c.o
+[ 72%] Linking C static library libsoft_timebase.a
+[ 72%] Built target soft_timebase
+[ 72%] Building C object psp/timebase_posix_clock-pc-linux-impl/CMakeFiles/timebase_posix_clock.dir/cfe_psp_timebase_posix_clock.c.o
+[ 73%] Linking C static library libtimebase_posix_clock.a
+[ 73%] Built target timebase_posix_clock
+[ 73%] Building C object psp/eeprom_mmap_file-pc-linux-impl/CMakeFiles/eeprom_mmap_file.dir/cfe_psp_eeprom_mmap_file.c.o
+[ 73%] Linking C static library libeeprom_mmap_file.a
+[ 73%] Built target eeprom_mmap_file
+[ 73%] Building C object psp/ram_notimpl-pc-linux-impl/CMakeFiles/ram_notimpl.dir/cfe_psp_ram_notimpl.c.o
+[ 73%] Linking C static library libram_notimpl.a
+[ 73%] Built target ram_notimpl
+[ 73%] Building C object psp/port_notimpl-pc-linux-impl/CMakeFiles/port_notimpl.dir/cfe_psp_port_notimpl.c.o
+[ 75%] Linking C static library libport_notimpl.a
+[ 75%] Built target port_notimpl
+[ 75%] Building C object psp/iodriver-pc-linux-impl/CMakeFiles/iodriver.dir/src/iodriver.c.o
+[ 75%] Linking C static library libiodriver.a
+[ 75%] Built target iodriver
+[ 75%] Building C object psp/CMakeFiles/psp-pc-linux.dir/pc-linux_module_list.c.o
+[ 75%] Linking C static library libpsp-pc-linux.a
+[ 75%] Built target psp-pc-linux
+[ 75%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_ccsdspri.c.o
+[ 76%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_init.c.o
+[ 76%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_integrity.c.o
+[ 76%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_msgid_shared.c.o
+[ 76%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_sechdr_checksum.c.o
+[ 78%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_sechdr_fc.c.o
+[ 78%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_sechdr_time.c.o
+[ 78%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_initdefaulthdr_pri.c.o
+[ 79%] Building C object msg/CMakeFiles/msg.dir/fsw/src/cfe_msg_msgid_v1.c.o
+[ 79%] Linking C static library libmsg.a
+[ 79%] Built target msg
+[ 79%] Building C object sbr/CMakeFiles/sbr.dir/fsw/src/cfe_sbr_map_direct.c.o
+[ 81%] Building C object sbr/CMakeFiles/sbr.dir/fsw/src/cfe_sbr_route_unsorted.c.o
+[ 81%] Linking C static library libsbr.a
+[ 81%] Built target sbr
+[ 81%] Building C object resourceid/CMakeFiles/resourceid.dir/fsw/src/cfe_resourceid_api.c.o
+[ 82%] Linking C static library libresourceid.a
+[ 82%] Built target resourceid
+[ 82%] Generating ../src/cfe_platformcfg_tables.c
+[ 84%] Building C object config/CMakeFiles/config.dir/fsw/src/cfe_config_init.c.o
+[ 84%] Building C object config/CMakeFiles/config.dir/fsw/src/cfe_config_lookup.c.o
+[ 84%] Building C object config/CMakeFiles/config.dir/fsw/src/cfe_config_get.c.o
+[ 85%] Building C object config/CMakeFiles/config.dir/fsw/src/cfe_config_set.c.o
+[ 85%] Building C object config/CMakeFiles/config.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/build/src/cfe_configid_nametable.c.o
+[ 85%] Building C object config/CMakeFiles/config.dir/__/src/cfe_platformcfg_tables.c.o
+[ 85%] Linking C static library libconfig.a
+[ 85%] Built target config
+[ 85%] Building C object apps/ci_lab/CMakeFiles/ci_lab.dir/fsw/src/ci_lab_app.c.o
+[ 85%] Building C object apps/ci_lab/CMakeFiles/ci_lab.dir/fsw/src/ci_lab_cmds.c.o
+[ 86%] Building C object apps/ci_lab/CMakeFiles/ci_lab.dir/fsw/src/ci_lab_dispatch.c.o
+[ 86%] Building C object apps/ci_lab/CMakeFiles/ci_lab.dir/fsw/src/ci_lab_passthru_decode.c.o
+[ 86%] Linking C shared module ci_lab.so
+[ 86%] Built target ci_lab
+[ 86%] Building C object apps/to_lab/CMakeFiles/to_lab.dir/fsw/src/to_lab_app.c.o
+[ 86%] Building C object apps/to_lab/CMakeFiles/to_lab.dir/fsw/src/to_lab_cmds.c.o
+[ 88%] Building C object apps/to_lab/CMakeFiles/to_lab.dir/fsw/src/to_lab_dispatch.c.o
+[ 88%] Building C object apps/to_lab/CMakeFiles/to_lab.dir/fsw/src/to_lab_passthru_encode.c.o
+[ 88%] Linking C shared module to_lab.so
+[ 88%] Built target to_lab
+[ 88%] Building C object apps/sch_lab/CMakeFiles/sch_lab.dir/fsw/src/sch_lab_app.c.o
+[ 88%] Linking C shared module sch_lab.so
+[ 88%] Built target sch_lab
+[ 88%] Building C object osal/ut_assert/CMakeFiles/ut_assert_pic.dir/src/utassert.c.o
+[ 89%] Building C object osal/ut_assert/CMakeFiles/ut_assert_pic.dir/src/utlist.c.o
+[ 89%] Building C object osal/ut_assert/CMakeFiles/ut_assert_pic.dir/src/utstubs.c.o
+[ 89%] Building C object osal/ut_assert/CMakeFiles/ut_assert_pic.dir/src/uttest.c.o
+[ 91%] Building C object osal/ut_assert/CMakeFiles/ut_assert_pic.dir/src/uttools.c.o
+[ 91%] Built target ut_assert_pic
+[ 91%] Building C object apps/cfe_assert/CMakeFiles/cfe_assert.dir/src/cfe_assert_io.c.o
+[ 91%] Building C object apps/cfe_assert/CMakeFiles/cfe_assert.dir/src/cfe_assert_init.c.o
+[ 91%] Building C object apps/cfe_assert/CMakeFiles/cfe_assert.dir/src/cfe_assert_runner.c.o
+[ 92%] Linking C shared module cfe_assert.so
+[ 92%] Built target cfe_assert
+[ 92%] Building C object apps/sample_app/CMakeFiles/sample_app.dir/fsw/src/sample_app.c.o
+[ 92%] Building C object apps/sample_app/CMakeFiles/sample_app.dir/fsw/src/sample_app_cmds.c.o
+[ 94%] Building C object apps/sample_app/CMakeFiles/sample_app.dir/fsw/src/sample_app_utils.c.o
+[ 94%] Building C object apps/sample_app/CMakeFiles/sample_app.dir/fsw/src/sample_app_dispatch.c.o
+[ 94%] Linking C shared module sample_app.so
+[ 94%] Built target sample_app
+[ 94%] Building C object apps/sample_lib/CMakeFiles/sample_lib.dir/fsw/src/sample_lib.c.o
+[ 95%] Linking C shared module sample_lib.so
+[ 95%] Built target sample_lib
+[ 97%] Generating cfe_module_version_table.c
+[ 97%] Generating cfe_build_env_table.c
+[ 97%] Building C object cpu1/CMakeFiles/core-cpu1.dir/mnt/c/Users/jfkor/Desktop/Karura_Project/COMMS2026/cFS/build/src/cfe_mission_strings.c.o
+[ 98%] Building C object cpu1/CMakeFiles/core-cpu1.dir/cfe_module_version_table.c.o
+[ 98%] Building C object cpu1/CMakeFiles/core-cpu1.dir/cfe_build_env_table.c.o
+[ 98%] Building C object cpu1/CMakeFiles/core-cpu1.dir/cfe_psp_module_list.c.o
+[ 98%] Building C object cpu1/CMakeFiles/core-cpu1.dir/cfe_static_symbol_list.c.o
+[100%] Building C object cpu1/CMakeFiles/core-cpu1.dir/cfe_static_module_list.c.o
+[100%] Building C object cpu1/CMakeFiles/core-cpu1.dir/src/target_config.c.o
+[100%] Linking C executable core-cpu1
+[100%] Built target core-cpu1
+[100%] Built target native_default_cpu1-all
+[  8%] Built target cfeconfig_platformdata_native_default_cpu1
+[ 41%] Built target cfeconfig_platformdata_tool
+[ 50%] Building C object tools/cFS-GroundSystem/Subsystems/cmdUtil/CMakeFiles/cmdUtil.dir/cmdUtil.c.o
+[ 58%] Building C object tools/cFS-GroundSystem/Subsystems/cmdUtil/CMakeFiles/cmdUtil.dir/SendUdp.c.o
+[ 66%] Linking C executable cmdUtil
+[ 66%] Built target cmdUtil
+make[7]: Warning: File 'tools/elf2cfetbl/CMakeFiles/elf2cfetbl.dir/compiler_depend.make' has modification time 0.089 s in the future
+make[7]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 83%] Built target elf2cfetbl
+[ 91%] Building C object tools/tblCRCTool/CMakeFiles/cfe_ts_crc.dir/cfe_ts_crc.c.o
+[100%] Linking C executable cfe_ts_crc
+[100%] Built target cfe_ts_crc
+Built target mission-all

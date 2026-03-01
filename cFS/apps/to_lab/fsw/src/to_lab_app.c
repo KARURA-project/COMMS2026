@@ -336,6 +336,16 @@ void TO_LAB_forward_telemetry(void)
     } while (CfeStatus == CFE_SUCCESS && PktCount < TO_LAB_MAX_TLM_PKTS);
 }
 
+void TO_Lab_RAM_Usage(void)
+{
+    
+
+
+}
+
+
+
+
 /************************/
 /*  End of File Comment */
 /************************/
