@@ -1,0 +1,15 @@
+name: CodeQl Analysis
+
+on:
+  push:
+  pull_request:
+  
+
+jobs:
+  codeql:
+    name: Codeql Analysis
+    uses: nasa/cFS/.github/workflows/codeql-reusable.yml@main
+    with: 
+      component-path: apps/my_app
+      prep: 'make prep; make -C build/tools/elf2cfetbl'
+      make: 'make -C build/native/default_cpu1/apps/my_app'
